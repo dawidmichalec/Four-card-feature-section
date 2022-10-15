@@ -1,0 +1,371 @@
+@media only screen and (min-width:1020px) {
+
+    .main {
+        width:1440px;
+        height:920px;
+        margin:auto;
+        background:hsl(0, 0%, 98%);
+        position:relative;
+        display:grid
+        grid-template-rows:200px 650px 70px;
+    }
+
+    .headings {
+        display:grid;
+        grid-row:1;
+    }
+
+    .reliable {
+        width:600px;
+        margin:60px auto 0 auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight:200;
+        font-size:32px;
+        color:hsl(234, 12%, 34%);
+        text-align:center;
+    }
+
+    .powered-by {
+        width:600px;
+        margin:auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:32px;
+        color:hsl(234, 12%, 34%);
+        text-align:center;
+    }
+
+    .artificial-intelligence {
+        width:470px;
+        margin:15px auto 0 auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:14px;
+        color:hsl(229, 6%, 66%);
+        text-align:center;
+    }
+
+    .card-section {
+        display:grid;
+        grid-row:2;
+        grid-template-columns:225px 310px 30px 310px 30px 310px 225px;
+    }
+
+    .supervisor{
+        display:grid;
+        grid-column:2;
+        height:220px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(180, 62%, 55%);
+        margin-top:175px;
+    }
+
+    .supervisor-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .supervisor-description {
+        width:250px;
+        margin:15px 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .supervisor-icon {
+        height:50px;
+        margin:25px 15px 15px auto;
+    }
+
+    .team-builder {
+        display:grid;
+        grid-column:4;
+        grid-row:1;
+        height:220px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(0, 78%, 62%);
+        margin-top:70px;
+        margin-bottom:0;
+    }
+
+    .team-builder-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .team-builder-description {
+        width:250px;
+        margin:0 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .team-builder-icon {
+        height:50px;
+        margin:25px 15px 0 auto;
+    }
+
+    .karma {
+        display:grid;
+        grid-column:4;
+        grid-row:1;
+        height:220px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(34, 97%, 64%);
+        margin-top:320px;
+    }
+
+    .karma-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .karma-description {
+        width:250px;
+        margin:15px 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .karma-icon {
+        height:50px;
+        margin:25px 15px 15px auto;
+    }
+
+    .calculator {
+        display:grid;
+        grid-column:6;
+        grid-row:1;
+        height:220px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(212, 86%, 64%);
+        margin-top:175px;
+    }
+
+    .calculator-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .calculator-description {
+        width:250px;
+        margin:15px 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .calculator-icon {
+        height:50px;
+        margin:25px 15px 15px auto;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .main {
+        width:375px;
+        height:1180px;
+        margin:0;
+        background:hsl(0, 0%, 98%);
+        position:relative;
+        display:grid
+        grid-template-rows:200px 220px 220px 220px 220px 100px;
+    }
+
+    .headings {
+        display:grid;
+        grid-row:1;
+    }
+
+    .reliable {
+        width:350px;
+        margin:60px auto 0 auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight:200;
+        font-size:26px;
+        color:hsl(234, 12%, 34%);
+        text-align:center;
+    }
+
+    .powered-by {
+        width:350px;
+        margin:auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:26px;
+        color:hsl(234, 12%, 34%);
+        text-align:center;
+    }
+
+    .artificial-intelligence {
+        width:350px;
+        margin:15px auto 0 auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:17px;
+        color:hsl(229, 6%, 66%);
+        text-align:center;
+    }
+
+    .supervisor{
+        display:grid;
+        grid-row:2;
+        width:350px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(180, 62%, 55%);
+        margin-top:75px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .supervisor-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .supervisor-description {
+        width:250px;
+        margin:15px 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .supervisor-icon {
+        height:50px;
+        margin:25px 15px 15px auto;
+    }
+
+    .team-builder {
+        display:grid;
+        grid-row:3;
+        width:350px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(0, 78%, 62%);
+        margin:0 auto;
+    }
+
+    .team-builder-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .team-builder-description {
+        width:250px;
+        margin:0 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .team-builder-icon {
+        height:50px;
+        margin:25px 15px 0 auto;
+    }
+
+    .karma {
+        display:grid;
+        grid-row:4;
+        width:350px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(34, 97%, 64%);
+        margin:15px auto;
+    }
+
+    .karma-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .karma-description {
+        width:250px;
+        margin:15px 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .karma-icon {
+        height:50px;
+        margin:25px 15px 15px auto;
+    }
+
+    .calculator {
+        display:grid;
+        grid-row:5;
+        width:350px;
+        background:white;
+        border-radius:5px;
+        border-top:solid 5px hsl(212, 86%, 64%);
+        margin:15px auto;
+    }
+
+    .calculator-heading {
+        width:270px;
+        margin:25px auto 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:18px;
+        color:hsl(234, 12%, 34%);
+    }
+
+    .calculator-description {
+        width:250px;
+        margin:15px 25px 0 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(229, 6%, 66%);
+    }
+
+    .calculator-icon {
+        height:50px;
+        margin:25px 15px 15px auto;
+    }
+}
